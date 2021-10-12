@@ -1,11 +1,3 @@
-variable "profile" {
-  type = string
-  description = "My AWS profile"
-  default = "terraformbook"
-}
+variable "vpc_name" {}
 
-variable "region" {
-  type = string
-  description = "My AWS region"
-  default = "eu-central-1"
-}
+variable "region" {}
