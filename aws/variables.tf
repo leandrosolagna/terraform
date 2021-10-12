@@ -9,3 +9,8 @@ variable "region" {
   description = "My AWS region"
   default = "eu-central-1"
 }
+
+variable "vpc_name" {
+  type = string
+  default = "solagna-vpc-ec2"
+}
