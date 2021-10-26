@@ -1,0 +1,14 @@
+---
+name: AWS Terraform lint
+on:
+  - push
+jobs:
+  format:
+    name: Terraform format
+    runs-on:
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          path: aws
+      - run: terraform fmt -recursive
+...
