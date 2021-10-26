@@ -4,8 +4,8 @@ provider "aws" {
 }
 
 module "networking" {
-  source = "./modules/networking"
-  region = var.region
+  source   = "./modules/networking"
+  region   = var.region
   vpc_name = var.vpc_name
 }
 
