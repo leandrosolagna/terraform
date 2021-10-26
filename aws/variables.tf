@@ -1,16 +1,16 @@
 variable "profile" {
-  type = string
+  type        = string
   description = "My AWS profile"
-  default = "leandroiam"
+  default     = "leandroiam"
 }
 
 variable "region" {
-  type = string
+  type        = string
   description = "My AWS region"
-  default = "eu-central-1"
+  default     = "eu-central-1"
 }
 
 variable "vpc_name" {
-  type = string
+  type    = string
   default = "solagna-vpc-ec2"
 }
