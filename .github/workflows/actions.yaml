@@ -10,5 +10,7 @@ jobs:
       - uses: actions/checkout@v2
         with:
           path: aws
+      - run: ls -la
+      - run: pwd
       - run: terraform fmt -recursive
 ...
